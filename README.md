@@ -57,7 +57,7 @@ I installed, configured, and demonstrated a full **ticket lifecycle** — showin
 ---
 
 ## 📹 Demo Video
-[![Watch the Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
+[![Watch the Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/oJCEl81JXOk)
 
 ---
 
@@ -67,7 +67,3 @@ I installed, configured, and demonstrated a full **ticket lifecycle** — showin
 - How to communicate clearly in technical support tickets.
 
 ---
-
-## 🚀 Next Steps
-- Integrate with Azure AD for SSO.
-- Automate ticket categorization using scripts.
