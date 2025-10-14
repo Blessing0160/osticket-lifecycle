@@ -57,7 +57,6 @@ When escalation is needed, I:
 | Case Study | Focus | Link |
 |-------------|--------|------|
 | **VPN Connectivity Issue** | Categorization, prioritization, SLA tracking | [🎥 Watch (1 min)](https://youtu.be/oJCEl81JXOk) |
-| **Printer Not Responding** | Communication, escalation workflow | [🎥 Watch (1.5 min)](https://youtu.be/example-link-2) |
 
 *(Each video description includes detailed troubleshooting steps and outcomes.)*
 
