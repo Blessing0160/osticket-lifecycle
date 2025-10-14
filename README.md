@@ -1,69 +1,80 @@
-# osTicket: Helpdesk Ticketing System (Lifecycle Demo)
+# 🎫 Ticket Handling | IT Helpdesk Portfolio
 
-**Role:** IT Helpdesk Technician (Simulation)  
-**Goal:** Demonstrate full helpdesk ticket workflow — from installation to resolving a real ticket.
-
----
-
-## 🔧 Project Overview
-This project simulates a small company's IT Helpdesk environment using **osTicket**, a web-based open-source support ticket system.
-
-I installed, configured, and demonstrated a full **ticket lifecycle** — showing how IT technicians handle and resolve user issues through proper documentation.
+This project demonstrates how I approach managing IT Helpdesk tickets — from intake to resolution — following SLA standards and escalation protocols.  
+I use **osTicket** to simulate a real helpdesk workflow.
 
 ---
 
-## 🧰 Tools & Technologies
-- Windows 10 / Server (VM)
-- osTicket
-- IIS (Internet Information Services)
-- MySQL / PHP
-- Remote Desktop
-- Active Directory (optional integration)
+## 💡 My Approach to Handling Tickets
+
+### 1. **Ticket Intake & Categorization**
+When a new ticket arrives, my first priority is to understand *what kind of issue it is* and *how it affects operations*.  
+- Identify **category** (Network, Hardware, Account Access, Software, etc.)  
+- Assess **impact** (number of users affected, system criticality)  
+- Define **urgency** (how quickly it blocks business operations)
+
+Severity is determined by combining **impact + urgency**:
+| Severity | Description | Example |
+|-----------|--------------|----------|
+| Low | Minor inconvenience, no downtime | Software install request |
+| Medium | User blocked but workaround exists | Printer not responding |
+| High | Business operations halted | VPN outage or network downtime |
 
 ---
 
-## 🧩 Step-by-Step Process
+### 2. **Prioritization & SLA Awareness**
+Each severity level maps to a specific **SLA target**:
+| Severity | Response Time | Resolution Goal |
+|-----------|----------------|-----------------|
+| Low | 2 hrs | 1 day |
+| Medium | 1 hr | 4 hrs |
+| High | 15 mins | 2 hrs |
 
-### 1. Installation & Setup
-- Installed osTicket on a Windows 10 VM using IIS, PHP, and MySQL.
-- Configured email piping and SMTP for ticket notifications.
-- Created help topics and SLA plans.
-
-### 2. Ticket Creation
-- A simulated user submits a ticket (e.g., *“Cannot connect to VPN”*).
-- The ticket appears in the helpdesk dashboard under “New Tickets.”
-
-### 3. Ticket Assignment & Response
-- I assigned the ticket to the correct department and priority.
-- Responded with troubleshooting questions and updates in osTicket.
-
-### 4. Resolution & Closure
-- Verified VPN connection issue.
-- Documented root cause and solution.
-- Closed the ticket with a resolution summary.
-
-### 5. Reporting
-- Checked ticket stats (response time, SLA adherence).
+I make sure every ticket is acknowledged quickly and that communication stays clear throughout the process.
 
 ---
 
-## 📸 Screenshots
-| Step | Description | Screenshot |
-|------|--------------|-------------|
-| 1 | Ticket Creation | ![screenshot1](screenshots/create_ticket.png) |
-| 2 | Agent View | ![screenshot2](screenshots/agent_view.png) |
-| 3 | Ticket Closed | ![screenshot3](screenshots/ticket_closed.png) |
+### 3. **Assignment & Escalation**
+- **Tier 1:** Handles common user-facing issues (password resets, VPN setup, software installs).  
+- **Tier 2:** Handles technical or configuration-level issues (network configurations, server access, system errors).  
+- **Tier 3:** Specialized or vendor-level support.
+
+When a ticket exceeds Tier 1 scope, I:
+1. Document what’s been done so far.  
+2. Update the ticket with diagnostics or logs.  
+3. Escalate to Tier 2 with full context (avoids duplication and shows professionalism).
 
 ---
 
-## 📹 Demo Video
-[![Watch the Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/oJCEl81JXOk)
+## ⚙️ Example Case Studies (Video Demos)
+
+Below are brief videos demonstrating my approach in action using osTicket.
+
+| Case Study | Description | Link |
+|-------------|--------------|------|
+| VPN Connectivity Issue | Categorization, prioritization, SLA tracking | [🎥 Watch (1 min)](https://youtu.be/oJCEl81JXOk) |
+| Printer Not Responding | Communication & escalation workflow | [🎥 Watch (1.5 min)](https://youtu.be/your-printer-demo-link) |
+
+*(Each video description on YouTube includes a detailed write-up of the troubleshooting steps and resolution.)*
 
 ---
 
-## 🧠 Lessons Learned
-- How to configure a working helpdesk system from scratch.
-- Importance of documentation and SLA tracking.
-- How to communicate clearly in technical support tickets.
+## 📈 What I Learned
+- The importance of **clear documentation** for escalation.
+- How **SLA tracking** builds accountability and trust.
+- How to balance **technical problem-solving** with **user communication**.
+- How to use **osTicket** effectively to simulate real IT workflows.
 
 ---
+
+## 🛠 Tools Used
+- osTicket — ticket management and SLA tracking  
+- Markdown & GitHub — documentation and portfolio presentation  
+- YouTube — demo videos for real-world ticket simulations
+
+---
+
+## 🔗 Next Steps
+I’m expanding this portfolio to include:
+- Active Directory management and user provisioning  
+- System configuration and automation tasks (Tier 2 simulations)
